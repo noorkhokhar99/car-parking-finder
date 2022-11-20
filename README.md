@@ -1,8 +1,37 @@
 # Car-parking-Detection
 - This project find outs the count of empty and occioped parking spaces in a car-parking-lot using through digital image processing techniques form opencv.
 
+- Clone the repository.
+```
+git clone https://github.com/noorkhokhar99/car-parking-finder.git
+```
+- Goto the cloned folder.
+```
+cd car-parking-finder
+
+```
+- Upgrade pip with mentioned command below.
+```
+pip install --upgrade pip
+```
+- Install requirements with mentioned command below.
+```
+pip install -r requirements.txt
+```
+- Run the code with mentioned command below.
+
+`app.py`
+
+ 
 ## Example Results
-- ![example_results](data/results/example_result.png)
+
+
+<p align="center">
+<img src="data/results/example_result.png">
+
+
+
+
 
 ## Problem Defination
 - finding out the empty parking spaces in a car-parking-lot aotomatically from servillance camera.
@@ -20,14 +49,7 @@
 - Doc String
 - Python Type Annotation
 
-## How To Use This Project
 
-### Running the project
-- Set your working directory as the project folder.
-- You can install required environment following environment/environment_installation_instructions.md file. 
-- Then you can run the project by following the following code:
-    ```
-    python app.py
 
 ### Controlling with the project
 - labelling   __car park__
